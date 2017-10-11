@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html data-cloud9-id='1' lang="en">
+
+<head data-cloud9-id='2'>
+
+    <meta data-cloud9-id='5' charset="utf-8">
+    <meta data-cloud9-id='6' http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta data-cloud9-id='7' name="viewport" content="width=device-width, initial-scale=1">
+    <meta data-cloud9-id='8' name="description" content="">
+    <meta data-cloud9-id='9' name="author" content="">
+
+    <title data-cloud9-id='10'>Find a Tennant's lager</title>
+    
+        <style data-cloud9-id='11'>
+    			.date {font-size:1.3em;  width:90px; padding:5px;font-weight:bold;}
+    			input[type="submit"]	 {font-size:1.5em; font-weight:bold;width:150px;margin-top:20px;padding:10px;}
+    			form {position:fixed;margin-top:35%;text-align:center;}
+    		body { 
+    		  background:url(img/front.svg) no-repeat center center fixed; 
+    		  -webkit-background-size: cover;
+    		  -moz-background-size: cover;
+    		  -o-background-size: cover;
+    		  background-size: cover; }
+			  
+        </style>
+		
+        
+    <!-- Bootstrap Core CSS -->
+    <link data-cloud9-id='12' href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link data-cloud9-id='13' href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link data-cloud9-id='14' href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link data-cloud9-id='15' href="css/style.css" rel="stylesheet" type="text/css">
+    <link data-cloud9-id='16' href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body data-cloud9-id='3'>
+
+<script data-cloud9-id='17' type="text/javascript">
+   function checkAge()
+   {
+
+   var min_age = 18;
+
+
+   var year = parseInt(document.forms["age_form"]["year"].value);
+   var month = parseInt(document.forms["age_form"]["month"].value) - 1;
+   var day = parseInt(document.forms["age_form"]["day"].value);
+
+   var theirDate = new Date((year + min_age), month, day);
+   var today = new Date;
+
+   if ( (today.getTime() - theirDate.getTime()) < 0) {
+   document.getElementById("img1").innerHTML='<img src="images/go.jpg" >';
+   return false;
+   }
+   else {
+
+   return true;
+   }
+   }
+   </script>
+	
+   
+	<div id="img1" style="width:150px; height:100px; vertical-align: text-top;"></div>
+   <form data-cloud9-id='18' action="http://www.foleyfoliage.co.uk/tennents/map.html" method="get" name="age_form">
+   		<h3 data-cloud9-id='19' style="font-weight:bold;font-size:2.1em;">Enter your DOB</h3>
+   <select data-cloud9-id='20' class="date" name="day">
+       <option data-cloud9-id='21'>1</option>
+       <option data-cloud9-id='22'>2</option>
+       <option data-cloud9-id='23'>3</option>
+       <option data-cloud9-id='24'>4</option>
+       <option data-cloud9-id='25'>5</option>
+       <option data-cloud9-id='26'>6</option>
+       <option data-cloud9-id='27'>7</option>
+       <option data-cloud9-id='28'>8</option>
+       <option data-cloud9-id='29'>9</option>
+       <option data-cloud9-id='30'>10</option>
+       <option data-cloud9-id='31'>11</option>
+       <option data-cloud9-id='32'>13</option>
+       <option data-cloud9-id='33'>14</option>
+       <option data-cloud9-id='34'>15</option>
+       <option data-cloud9-id='35'>16</option>
+       <option data-cloud9-id='36'>17</option>
+       <option data-cloud9-id='37'>18</option>
+       <option data-cloud9-id='38'>19</option>
+       <option data-cloud9-id='39'>20</option>
+       <option data-cloud9-id='40'>21</option>
+       <option data-cloud9-id='41'>22</option>
+       <option data-cloud9-id='42'>23</option>
+       <option data-cloud9-id='43'>24</option>
+       <option data-cloud9-id='44'>25</option>
+       <option data-cloud9-id='45'>27</option>
+       <option data-cloud9-id='46'>29</option>
+       <option data-cloud9-id='47'>30</option>
+       <option data-cloud9-id='48'>31</option>
+   </select>
+
+   <select data-cloud9-id='49' class="date" name="month">
+       <option data-cloud9-id='50'>1</option>
+       <option data-cloud9-id='51'>2</option>
+       <option data-cloud9-id='52'>3</option>
+       <option data-cloud9-id='53'>4</option>
+       <option data-cloud9-id='54'>5</option>
+       <option data-cloud9-id='55'>6</option>
+       <option data-cloud9-id='56'>7</option>
+       <option data-cloud9-id='57'>8</option>
+       <option data-cloud9-id='58'>9</option>
+       <option data-cloud9-id='59'>10</option>
+       <option data-cloud9-id='60'>11</option>
+       <option data-cloud9-id='61'>12</option>
+   </select>
+
+   <select data-cloud9-id='62' class="date" name="year">
+       <option data-cloud9-id='63'>2013</option>
+       <option data-cloud9-id='64'>2012</option>
+       <option data-cloud9-id='65'>2011</option>
+       <option data-cloud9-id='66'>2010</option>
+       <option data-cloud9-id='67'>2009</option>
+       <option data-cloud9-id='68'>2008</option>
+       <option data-cloud9-id='69'>2007</option>
+       <option data-cloud9-id='70'>2006</option>
+       <option data-cloud9-id='71'>2005</option>
+       <option data-cloud9-id='72'>2004</option>
+       <option data-cloud9-id='73'>2003</option>
+       <option data-cloud9-id='74'>2002</option>
+       <option data-cloud9-id='75'>2001</option>
+       <option data-cloud9-id='76'>2000</option>
+       <option data-cloud9-id='77'>1999</option>
+       <option data-cloud9-id='78'>1998</option>
+       <option data-cloud9-id='79'>1997</option>
+       <option data-cloud9-id='80'>1996</option>
+       <option data-cloud9-id='81'>1995</option>
+       <option data-cloud9-id='82'>1994</option>
+       <option data-cloud9-id='83'>1993</option>
+       <option data-cloud9-id='84'>1992</option>
+       <option data-cloud9-id='85'>1991</option>
+       <option data-cloud9-id='86'>1990</option>
+       <option data-cloud9-id='87'>1989</option>
+       <option data-cloud9-id='88'>1988</option>
+       <option data-cloud9-id='89'>1987</option>
+       <option data-cloud9-id='90'>1986</option>
+       <option data-cloud9-id='91'>1985</option>
+       <option data-cloud9-id='92'>1984</option>
+       <option data-cloud9-id='93'>1983</option>
+       <option data-cloud9-id='94'>1982</option>
+       <option data-cloud9-id='95'>1981</option>
+       <option data-cloud9-id='96'>1980</option>
+       <option data-cloud9-id='97'>1979</option>
+       <option data-cloud9-id='98'>1978</option>
+
+   </select><br data-cloud9-id='99' />
+
+   <input data-cloud9-id='100' type="submit" name="senddate" value="Enter" onClick="return checkAge()"> 
+	<div data-cloud9-id='101' style="font-size:1.1em;font-weight:bold;margin-top:28%; line-height:13px;padding:30px 48px;" class="licence">
+    <p data-cloud9-id='102' >BY SUBMITTING THIS FORM, YOU AGREE TO THE PRIVACY AND COOKIE POLICY OF THIS WEBSITE.
+THIS WEBSITE WILL MAKE USE OF COOKIES. TO LEARN MORE, PLEASE READ OUR PRIVACY AND COOKIE POLICY. </p>
+    </div>
+</body>
+
+</html>
+<script src="/_static/preview/livecss.js"></script>

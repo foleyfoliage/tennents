@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="640px" height="960px" viewBox="0 0 640 960" enable-background="new 0 0 640 960" xml:space="preserve">
+<g>
+	<path fill="#FECC0D" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M822.515,192.522H643.653v86.406h243.206
+		C848.966,260.818,830.506,235,822.515,192.522z"/>
+	<path fill="#FECC0D" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M1106.658,193.48
+		c-7.991,42.478-26.451,67.338-64.344,85.448h243.206v-86.406L1106.658,193.48z"/>
+</g>
+<path fill="#FECC0D" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M1284.628,0H642.76v174.647h200.496
+	c5.313,61.861,57.201,110.416,120.438,110.416s115.125-48.555,120.438-110.416h200.496V0z"/>
+<path fill="#FF0000" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M1016.207,238.613h-97.331v-40.692h23.255V73.723
+	h-22.285v26.988h-36.35v-67.68h167.536v67.68h-36.353V73.723h-20.509v124.198h22.036V238.613z"/>
+<circle cx="1182.857" cy="235.725" r="28.567"/>
+<circle fill="#FECC0D" stroke="#000000" stroke-width="5" stroke-miterlimit="10" cx="1182.857" cy="235.725" r="24.996"/>
+<rect x="692.37" y="216.085" width="91.823" height="10.203"/>
+<rect x="692.37" y="230.624" width="91.823" height="10.203"/>
+<rect x="692.37" y="245.163" width="91.823" height="10.203"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-143.147" y1="685.7156" x2="778.9487" y2="350.1002">
+	<stop  offset="0" style="stop-color:#FBAE17"/>
+	<stop  offset="0.3744" style="stop-color:#FBB41A"/>
+	<stop  offset="0.7833" style="stop-color:#FFE631"/>
+	<stop  offset="1" style="stop-color:#FFFF00"/>
+</linearGradient>
+<rect x="-5.893" y="-27.003" fill="url(#SVGID_1_)" stroke="#000000" stroke-miterlimit="10" width="647.587" height="1089.821"/>
+<g>
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M578.414,348.113"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M266.212,276.105"/>
+	</g>
+</g>
+</svg>

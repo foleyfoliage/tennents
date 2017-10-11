@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" width="device-width">
+    <meta charset="utf-8">
+    <title>Maps Testing</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            text-align: center;
+            width:device-width;
+            height:100%;
+            margin:0px;
+            transform: perspective( 0px ) rotateX( 0deg );
+
+        }
+    </style>
+
+    <script type="text/javascript" src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+
+    <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMgo_y4pZ7eEF5ZemQRpX6aIzOq8HNnpg&callback=initMap"></script>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+
+    <script type="text/javascript" src="js/mapJavascript.js"></script>
+
+</head>
+
+<body>
+
+<div id="map"></div>
+
+</body>
+
+</html>
